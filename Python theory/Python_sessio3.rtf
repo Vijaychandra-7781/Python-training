@@ -1,0 +1,169 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Times New Roman;}{\f1\fmodern JetBrains Mono;}{\f2\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red169\green183\blue198;\red104\green151\blue187;\red204\green120\blue50;\red128\green128\blue128;\red136\green136\blue198;\red106\green135\blue89;}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\f0\fs28\lang9\tab\tab\tab\tab\b\fs36 Python session-3\par
+\par
+\fs28 List :\b0  "List is a group of values with comma(,) separation enclosed in square brackets is called list"\par
+
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 List is a sequence type all the item of the list stored in the index.\fs22\par
+{\pntext\f2\'B7\tab}\fs28 List is a indexed collection,it supports positive index also negative index also.\fs22\par
+{\pntext\f2\'B7\tab}\fs28 List allows duplicate items or values.\fs22\par
+{\pntext\f2\'B7\tab}\fs28 List can have item has same type or different type.\fs22\par
+{\pntext\f2\'B7\tab}\fs28 List of same type of item is known as Homogeneous list.\fs22\par
+{\pntext\f2\'B7\tab}\fs28 List of differnt type of item is known as Heterogenous list.\fs22\par
+{\pntext\f2\'B7\tab}\fs28 List can contain another list of an item is called nested list.\fs22\par
+{\pntext\f2\'B7\tab}\fs28 List is Mutable in natue .List can be modified the values like add,delete like this.\fs22\par
+
+\pard\sa200\sl276\slmult1\fs28 Syntax:\par
+\tab List_name=[val1,val2,val3]\par
+or\par
+\tab List_name=list()\par
+Example:\par
+\tab l1=[10,20,30,40,50] #This is called Homogeneous list.\par
+\tab print(type(l1))\par
+Example 2:\par
+\tab l2=[10,'vijay',2.4,30]# This is called Heterogeneous list.\par
+\tab print(type(l2))\par
+Example 3:\par
+\tab l3=[10,20,30]# This type of list called as Packing list\par
+\tab l4,l5,l6=10,20,30 # This type is called unpack list\par
+Example 4:we have to use some methods\par
+\tab l1=[10,20,30,40]\par
+\tab print(len(l1))# this len function used to find the length of the list\par
+\tab Output:4\par
+Example 5: In this example we have to add some values and delete some values.\par
+\tab l1=[10,2,4,6,8]\par
+\tab l1.append(20)#Append function is used to add the value\par
+\tab l1.extend([1,2,3])# extend also similar to append but we can gve one \tab\tab\tab\tab\tab or more value at a time.\par
+\tab l1.remove(10) # this one is used delete the value\par
+\b Set  : \b0 "Set is a group of values with comma separartion enclosed with in the curly brackets is called sets"\par
+
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 The set is a collection of unique element it doesn't allow the duplicate values.\par
+{\pntext\f2\'B7\tab}Set is not a sequence type.\par
+{\pntext\f2\'B7\tab}The item of set stored in the random order.\par
+{\pntext\f2\'B7\tab}The set is a in order collection.\par
+{\pntext\f2\'B7\tab}Set is not support indexing,because the value are arranged randomly.\par
+{\pntext\f2\'B7\tab}Set is Mutable in nature ,we can modify the values .\par
+{\pntext\f2\'B7\tab}Set mathematical function Union(|) and Intersection(&).\par
+
+\pard\sa200\sl276\slmult1 Syntax:\par
+\tab s1=\{1,2,3,4,5\}\par
+or\par
+\tab s1=set()\par
+Example 1:\par
+\tab s1=\{1,2,3,4\}\par
+\tab print(type(s1))\par
+Example 2: We can add the value to empty set.\par
+\tab s1=set()\par
+\tab s1.add(10)\par
+\tab s1.add(20)\par
+\tab print(s1) # the output will show \{10,20\}\par
+\tab s1.remove(10)\par
+\tab print(s1) # remove is used for the delete the values\par
+Example 3:\par
+\tab s1=\{1,2,44,55\}\par
+\tab s2=\{10,20,30,40\}\par
+\tab print(s1|s2) # union\par
+\tab print(s1&s2)# intersection\par
+\tab print(s1-s2)# differnce\par
+\b Dictionary :"\b0 Collection of key value pair is called as dictionary".\par
+
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Dictionary is Mutable nature,we can modify the values.\b\par
+{\pntext\f2\'B7\tab}\b0 Value is associated with the key.\b\par
+{\pntext\f2\'B7\tab}\b0 In dictionary key is an index to fetch the values.\b\par
+{\pntext\f2\'B7\tab}\b0 In dictionary key is unique but value can be duplicate.\b\par
+{\pntext\f2\'B7\tab}\b0 Dict is not support indexing .\b\par
+{\pntext\f2\'B7\tab}\b0 Dict is unordered.\b\par
+
+\pard\sa200\sl276\slmult1\b0 Synatx:\par
+\tab dict=\{key1:value1,key2:value2,key3:value3,key4:value4\}\par
+Example1:\par
+\tab d1=\{a1:10,a2:20,a3:30\}\par
+\tab print(type(d1))\par
+Example2: In this one we habe to add some values to empty dictionary.\par
+\tab d1=\{\}\par
+\tab d1[10]='python' # adding key value pair to dict d1\par
+\tab d1[20]='sql'\par
+\tab d1[30]='pyspark'\par
+\tab print(d1)\par
+Example3:In dict key must be unique.\par
+ \tab d1=\{1:'vijay',2:'chandra'\}\par
+\tab d1[1]='raja'#it is not support because 1 key is there .\par
+\tab d1[3]='vijay'#value can be duplicate\par
+\tab print(d1)\par
+\b Slicing :" \b0 It is used to store the sequence data".\tab\par
+\tab To get the partial data or data in the range\par
+\tab slicing supports positive indexing and negative indexing.\par
+\tab (:) this is the operator\par
+Syntax:\par
+\tab Var_name[start_index: end index]\par
+or \tab\par
+\tab slice(start,end,step)\par
+Example 1:\par
+\tab s1='developers'\par
+\tab print(s1[:])# complete data gives start to end\par
+\tab print(s1[4:])# index value 4th to end \par
+\tab print(s1[:8])# indext starting to 8th index postion\par
+\tab print(s1[3:9])# 3rd index to 8th index to be printed\par
+Example 2:\par
+\tab s1='software'\par
+\tab print(s1[-1:])# printed only -1 position value\par
+\tab print(s1[-6:-1])\par
+\tab print(s1[::-1])# printing reverse\par
+Example 3:\par
+\tab l1=[10,20,30,40,50,60]\par
+\tab print(l1[0:])\par
+\tab print(l1[-1:])\par
+\b Concatenate: \b0 "Joining any two string values is called Concatenation".\par
+\tab Concatenate support strings,list and tuple .\par
+\tab It doesn't support the set and dict.\par
+Example:\par
+\tab s1='vijay'\par
+\tab s2='chandra'\par
+\tab print(s1+s2)# concatenation output is vijaychandra\b\par
+\b0 Example 2:\par
+\tab l1=[10,20,30]\par
+\tab l2=[100,200,300]\par
+\tab print(l1+l2)\par
+\b Traversing dictionary: \b0 Traversing means iterating one after the other is called traverse.\par
+Using for loop we can traverse the dictionary\par
+example:\par
+\tab d1=\{'A':'Vijay','B':'Faizan','C':'Amal'\}\par
+\tab for key in d1:\par
+\tab print(value)# this is key traversing\par
+Example:\par
+
+\pard\sa200\sl276\slmult1\tab d1=\{'A':'Vijay','B':'Faizan','C':'Amal'\}\par
+\tab for key,value in d1.items: #method using  \par
+\tab print(value)# this is key and value  traversing\par
+\b Methods and User defined function:\b0\par
+"A function is a set of statements that take inputs, do some specific computation and produce output is called user defined functions"\par
+Example:\par
+\tab def square(num): # function define\par
+\tab return num*num  #square the number\par
+\tab print(num(10)) # Function calling\par
+"Method is already crated in the object"\par
+Example : List methods\par
+\tab append()- is used to add the value in the list\par
+\tab remove()-is used delete the value in the list\par
+\tab index()-is used to check the value index position\b\par
+
+\pard\sa200\sl276\slmult1\b0\par
+\b Comprehension: \b0 List comprehension offers a shorter syntax when you want to create a new list based on the values of an existing list.\par
+Example:\par
+\tab fruits = ["apple", "banana", "cherry", "kiwi", "mango"]\par
+\tab newlist = []\par
+\tab for x in fruits:\par
+ \tab if "a" in x:\par
+  \tab newlist.append(x)\par
+\tab print(newlist)\par
+\b Frozenset: \b0 The frozenset() is an inbuilt function in Python which takes an iterable object as input and makes them immutable.\par
+Example:\par
+
+\pard\box\brdrdash\brdrw0 \sa200\sl276\slmult1\tab\cf1\f1\fs20 num= [\cf2 1\cf3 , \cf2 2\cf3 , \cf2 3\cf3 , \cf2 4\cf3 , \cf2 5\cf3 , \cf2 6\cf3 , \cf2 7\cf3 , \cf2 8\cf3 , \cf2 9\cf1 ]\line\line\cf4 # converting tuple to frozenset\line\cf1 fnum = \cf5 frozenset\cf1 (num)\line\line\cf4 # printing details\line\cf5 print\cf1 (\cf6 "frozenset Object is : "\cf3 , \cf1 fnum)\line fnum[\cf2 1\cf1 ]=\cf2 2\line\cf5 print\cf1 (fnum)\par
+
+\pard\sa200\sl276\slmult1\cf0\f0\fs28\par
+\par
+\fs22\par
+}
+ 
